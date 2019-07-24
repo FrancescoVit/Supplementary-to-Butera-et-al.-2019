@@ -198,7 +198,7 @@ p
 
 
 
-## ORDINAZIONE
+## Ordination
 
 phylo_cloud <- subset_samples(qiime_file_trasf_css, Tissue != "HM")
 sample_data(phylo_cloud)$CLUSTER <- as.factor(sample_data(phylo_cloud)$CLUSTER)
