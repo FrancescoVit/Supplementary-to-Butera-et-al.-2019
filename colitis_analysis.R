@@ -43,18 +43,18 @@ library(plyr)
 ## DATA LOADING, CLEANING, FIRST VISUALIZATIONS ################################
 
 # Read data in R 
-biom_16S_fp <- "./ANALISI/open_ref_otu_picking_uclust/otu_table_mc2_w_tax_no_pynast_failures_filtered.biom"
-map_16S_fp_citochine <- "./mapping_citochine_maggiorato_bis.csv"
-tree_16S_fp <- "./ANALISI/open_ref_otu_picking_uclust/rep_set.tre"
+biom_16S_fp <- ## insert here the filepath to the .biom table obtained with QIIME
+map_16S_fp <- ## insert here the filepath to the mapping file
+tree_16S_fp <- ## insert here the filepath to the phylogenetic tree file obtained with QIIME
 
 # Importing otu table 
 otu_biom_16S<-  import_biom(BIOMfilename=biom_16S_fp)
 # Importing mapping file
-env_16S_citochine <- import_qiime_sample_data(map_16S_fp_citochine)
+env_16S <- import_qiime_sample_data(map_16S_fp)
 # Importing tree file
 tree_16S <- read_tree_greengenes(treefile = tree_16S_fp)
 # Building phyloseq object
-qiime_file_16S_citochine <- merge_phyloseq(otu_biom_16S, env_16S_citochine, tree_16S)
+qiime_file_16S_citochine <- merge_phyloseq(otu_biom_16S, env_16S, tree_16S)
 
 # Convertin variables in sample_data()
 dfs <- as(sample_data(qiime_file_16S_citochine), "data.frame") 
