@@ -20,9 +20,3 @@ This repository was created with the aim of storing and making public the script
 
 * Command used for raw reads pre-treatment and OTUs picking can be found here in the file [from_seqs_to_OTU.sh](https://github.com/FrancescoVit/Supplementary-to-Butera-et-al.-2019/blob/master/from_seqs_to_OTU.sh)
 * Command used in R for data analysis can be found in the file [Colitis_analysis.R](https://github.com/FrancescoVit/Supplementary-to-Butera-et-al.-2019/blob/master/colitis_analysis.R)
-
-
-
-*****
-## License
-<a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
