@@ -6,9 +6,7 @@
 
 **Authors:**  Alessia Butera, Monica Di Paola, Francesco Vitali, Daniela De Nitto, Francesco Covotta, Francesco Borrini, Roberta Pica, Carlotta De Filippo, Duccio Cavalieri, Alessandro Giuliani, Annamaria Pronio, Monica Boirivant
 
-**DOI:** 
-
-**LINK:**
+**DOI:** https://doi.org/10.1093/ecco-jcc/jjz154
 
 
 *****
